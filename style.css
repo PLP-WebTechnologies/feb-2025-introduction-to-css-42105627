@@ -1,0 +1,69 @@
+/* General Reset to avoid browser inconsistencies */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the body */
+  body {
+    font-family: 'Arial', sans-serif; /* Basic font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6;
+  }
+  
+  /* Styling the header */
+  #main-heading {
+    text-align: center;
+    color: #4CAF50; /* Green color for the main heading */
+    margin-top: 30px;
+  }
+  
+  /* Styling for the intro section */
+  .intro {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border: 2px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Styling the image inside intro section */
+  .styled-image {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border: 5px solid #4CAF50; /* Green border */
+    border-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  /* Styling for the content section */
+  .content {
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ccc; /* Light border */
+  }
+  
+  /* Styling paragraphs with a different font and padding */
+  .paragraph {
+    font-family: 'Courier New', Courier, monospace; /* Different font */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 4px solid #4CAF50; /* Green left border */
+    background-color: #f9f9f9; /* Slight background color */
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  
